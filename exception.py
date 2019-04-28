@@ -2,6 +2,7 @@
 
 sample = 6
 
+
 def expect_int(i):
     if not isinstance(i, type(sample)):
         raise ValueError('Expected integer but got {}'.format(type(i)))
@@ -9,6 +10,6 @@ def expect_int(i):
         print('Got an integer value {}'.format(i))
 
 
-expect_int(5)
-expect_int(5.13)
+#expect_int(5)
+#expect_int(5.13)
 
